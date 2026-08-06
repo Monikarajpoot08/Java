@@ -1,7 +1,6 @@
 //Multiplication of multiple numbers using method overloading
 // Method overloading: process of defining multiple methods with the same name but different parameters in the same class.
 // Compile time polymorphism 
-
 class Multiplication{
     int multiply(int a , int b){
         return a*b;
