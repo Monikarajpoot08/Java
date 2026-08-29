@@ -1,5 +1,5 @@
 //exception handling 
-//User defined exception
+//User defined
 class Test {
     public static void main(String[] args) {
         try{
