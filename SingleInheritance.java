@@ -1,22 +1,19 @@
-// Program of Single Inheritance
-class Animal{
-    void eat(){
-        System.out.println("Animal eats");
+//17.Write a Java program to demonstrate single/simple inheritance.
+class Organization{
+    void work(){
+        System.out.println("Organization works");
+    }}
+class Manager extends Organization{
+    void projects(){
+        System.out.println("Manager manages projects");
     }
-}
-class Dog extends Animal{
-    void sleep(){
-        System.out.println("Dog sleeps");
-    }
-    void bark(){
-        System.out.println("Dog barks");
-    }
-}
+    void deadlines(){
+        System.out.println("Manager handles deadlines");
+    }}
 public class SingleInheritance {
     public static void main(String[] args){
-        Dog d1 = new Dog(); // object created from Dog class
-        d1.eat(); // Dog class inherits the methods from Animal class
-        d1.sleep();
-        d1.bark();
-    }
-}
+        Manager m1 = new Manager();
+        m1.work(); 
+        m1.projects();
+        m1.deadlines();
+    }}
