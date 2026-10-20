@@ -14,7 +14,8 @@ class Rectangle extends Shapes {
 class RuntimePolymorphism {
     public static void main(String[] args) {
         Shapes s;
-        s = new Circle();
+        s = new Circle(); //A parent class reference variable can refer to an object of its child class in Java.
+        // This is called upcasting and is commonly used in runtime polymorphism.
         s.draw();
         s = new Rectangle();
         s.draw();
