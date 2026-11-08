@@ -1,7 +1,7 @@
 //34. Write a Java program using ArrayList to store, display, search, update and delete elements.
 import java.util.ArrayList;
-import java.util.Scanner;
-class ArrayListDemo {
+import java.util.Scanner;  
+class ArrayListDemo {  
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
